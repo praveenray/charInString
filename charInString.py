@@ -1,7 +1,11 @@
+import string
+
 
 def findposition():
-    string = ("The quick brown fox jumps over the lazy dog")
-    location = string.find("x")
-    print('The letter "x" is found at ' + str(location))
+    location = sentence.find(letter)
+    print('The letter "' + letter + '" is found at ' + str(location))
+
+sentence = input("Write the sentence: ")
+letter = input("Write the letter: ")
 
 findposition()
